@@ -9,9 +9,9 @@ function getTime(){
     const seconds = time.getSeconds();
 
     clockTime.innerText = 
-    `${hour < 10 ? `0${hour}` : hour} 
-        : ${minute < 10 ? `0${minute}` : minute} 
-            : ${seconds < 10 ? `0${seconds}` : seconds
+    `${hour < 10 ? `0${hour}` : hour} : ${
+        minute < 10 ? `0${minute}` : minute} : ${
+            seconds < 10 ? `0${seconds}` : seconds
     }`;
 }
 
